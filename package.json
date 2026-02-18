@@ -1,4 +1,4 @@
-{
+{"homepage": "https://<Faded999x>.github.io/<Comp2156>",
   "name": "comp2156-spa",
   "version": "1.0.0",
   "dependencies": {
@@ -26,6 +26,8 @@
   "description": "hello",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
   "build": "react-scripts build",
   "test": "echo \"Error: no test specified\"",
